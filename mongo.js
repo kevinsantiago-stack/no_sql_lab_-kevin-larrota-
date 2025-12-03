@@ -1,6 +1,6 @@
 const { MongoClient, ObjectId } = require("mongodb");
 
-// Cambia 'juan' y '12345' por tu usuario y contraseña de MongoDB
+
 const uri = "mongodb://juan:12345@localhost:27017/?authSource=TiendaOnline";
 const client = new MongoClient(uri);
 const dbName = "TiendaOnline";
